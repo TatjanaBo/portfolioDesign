@@ -1,0 +1,78 @@
+//.about_page_card_wrapper{
+//  display: flex;
+//  flex-direction: row;
+//  gap: 140px;
+//  padding: 30px;
+//}
+
+.about_page_card_content{
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+  padding: 30px;
+}
+
+.about_page_card_image{
+  width: 450px;
+  border-radius: 8px;
+}
+
+
+.about_page_heading_main{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 71px;
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.about_page_card_text{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.44px;
+  text-align: left;
+}
+
+.about_page_card_email{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.44px;
+  text-align: left;
+  color: #5C62EC;
+}
+
+.habilidades{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap:20px;
+  justify-content: center;
+}
+
+.card_container{
+  background-color: #1C1E22;
+  border-radius: 8px;
+  padding:20px;
+
+}
+.card_title{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.card_text{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  text-align: left;
+}

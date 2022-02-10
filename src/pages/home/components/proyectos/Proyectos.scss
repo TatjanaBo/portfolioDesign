@@ -1,0 +1,33 @@
+.proyecto_wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.proyecto_cards_wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding:30px;
+}
+
+.proyectos_heading{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+  color:#FFFFFF;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.proyecto_image{
+  max-width: 1155px;
+  width:100%;
+  border-radius: 8px;
+}
+
+.proyecto_button_wraper{
+  display: flex;
+  justify-content: center;
+}

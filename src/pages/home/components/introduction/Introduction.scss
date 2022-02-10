@@ -1,0 +1,38 @@
+.introduction_wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.introduction_content_wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.introduction_heading1{
+  color:#FAFAFA;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: -0.5px;
+}
+
+.introduction_heading6{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+}
+
+.heading_color{
+  color: #5C62EC;;
+}
+
+.button_wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
